@@ -19,7 +19,12 @@ Step 4: Start Debugging
 1. Click on the "Run and Debug"
 2. Select "Go: Launch"
    ❗❗ When you start debugging for the first time or if the dlv executable on your system is too old to support DAP, the Go extension may ask to install or update Delve. Follow the instructions to install it, and then start the debugging session again.
-   go install github.com/go-delve/delve/cmd/dlv@latest
+install pkg: go install github.com/go-delve/delve/cmd/dlv@latest
+update pkg dlv:
+ - Buka Command Palette (Ctrl+Shift+P atau Cmd+Shift+P).
+ - Ketik dan pilih perintah: Go: Install/Update Tools.
+ - Cari dan pilih dlv (Delve).
+ - Klik OK untuk menginstalnya. VS Code akan mencoba menginstal atau memperbarui Delve menggunakan versi Go yang Anda miliki saat ini.
 
 Step 5: Debugging in Action
 
